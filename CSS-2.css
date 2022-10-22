@@ -1,0 +1,66 @@
+div {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.main {
+    width: 1440px;
+    margin: 0 auto;
+}
+
+.nav div, .section1 div, .section2in div, .section3in div, .footer div {
+    background-color: red;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav div {
+    width: 200px;
+    height: 130px;
+}
+
+.banner {
+    height: 500px;
+    background-image: url("../../Aula 05/images/2019-chevrolet-camaro-2-0t-1le-6mt-109-1539790971.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.section1, .section2in, .section3in, .footer {
+    display: flex;
+    justify-content: space-between;
+}
+
+.section1 div {
+    width: 46%;
+    height: 300px;
+}
+
+.section2in, .section3in {
+    margin: 0;
+    border: 0;
+}
+
+.section2in div {
+    width: 30%;
+    height: 130px;
+}
+
+.div30 {
+    width: 28%;
+    height: 130px;
+}
+
+.div70 {
+    width: 68%;
+    height: 130px;
+}
+
+.footer div {
+    width: 23%;
+    height: 130px;
+}
